@@ -1,0 +1,3 @@
+/home/victor/Documentos/Prueba/cmake-build-debug/CMakeFiles/Prueba.dir
+/home/victor/Documentos/Prueba/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/victor/Documentos/Prueba/cmake-build-debug/CMakeFiles/rebuild_cache.dir
