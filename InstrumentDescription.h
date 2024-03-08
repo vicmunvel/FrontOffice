@@ -3,13 +3,14 @@
 
 #include "LegDescription.h"
 
-// Es probable que se utilice para describir los instrumentos financieros en su totalidad
+// Se utilice para describir los instrumentos financieros en su totalidad
 
 struct InstrumentDescription{
 
     enum Type {bond, swap};
     Type type;
-    InstrumentDescription(Type type_):type(type_){} // Constructor. Hay que especificar el tipo al crearlo.
+    // Constructor. Hay que especificar el tipo al crearlo.
+    InstrumentDescription(Type type_):type(type_){}
     LegDescription payer;
     LegDescription receiver;
 

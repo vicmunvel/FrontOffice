@@ -18,7 +18,6 @@ short Actual_360::compute_daycount(const boost::gregorian::date & from,
 }
 
 
-
 //-----------------------------------------------------------------------------------------------------------------\\
 
 
@@ -49,7 +48,8 @@ short Thirty_360::compute_daycount(const boost::gregorian::date & from,
 short Thirty_360::compute_daycount(const short years, const short months,
                                    const short days_from,
                                    const short days_to)
-{
+
+{   //En clase habia dudas de si esto funcionaba correctamente
     return (360 * years) + 30 * (months -1) +
            std::max<short>(0, 30 - days_from) +
            std::min<short>(30, days_to);

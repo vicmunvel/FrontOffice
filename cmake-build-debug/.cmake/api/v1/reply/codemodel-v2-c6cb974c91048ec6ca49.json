@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Front_Office",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Test_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test_1-Debug-838c67515b27e37c543f.json",
+					"name" : "Test_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Test_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test_2-Debug-23a50a3a7b0b798f3cb1.json",
+					"name" : "Test_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Test_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test_3-Debug-95fc8bdf4dd50adfe389.json",
+					"name" : "Test_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Test_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test_4-Debug-bf47e5cb3a458a9f8514.json",
+					"name" : "Test_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Test_5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test_5-Debug-d0a2e9a3a0c982367b3c.json",
+					"name" : "Test_5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Valoracion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Valoracion-Debug-c0ebe7297f804f9e1991.json",
+					"name" : "Valoracion",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/victor/Documentos/Front_Office/cmake-build-debug",
+		"source" : "/home/victor/Documentos/Front_Office"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

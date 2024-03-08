@@ -1,3 +1,8 @@
-/home/victor/Documentos/Prueba/cmake-build-debug/CMakeFiles/Prueba.dir
-/home/victor/Documentos/Prueba/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/victor/Documentos/Prueba/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/victor/Documentos/Front_Office/cmake-build-debug/CMakeFiles/Valoracion.dir
+/home/victor/Documentos/Front_Office/cmake-build-debug/CMakeFiles/Test_1.dir
+/home/victor/Documentos/Front_Office/cmake-build-debug/CMakeFiles/Test_2.dir
+/home/victor/Documentos/Front_Office/cmake-build-debug/CMakeFiles/Test_3.dir
+/home/victor/Documentos/Front_Office/cmake-build-debug/CMakeFiles/Test_4.dir
+/home/victor/Documentos/Front_Office/cmake-build-debug/CMakeFiles/Test_5.dir
+/home/victor/Documentos/Front_Office/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/victor/Documentos/Front_Office/cmake-build-debug/CMakeFiles/rebuild_cache.dir

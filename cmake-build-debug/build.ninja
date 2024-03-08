@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Prueba
+# Project: Front_Office
 # Configurations: Debug
 # =============================================================================
 
@@ -39,59 +39,476 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/victor/Documentos/Prueba/cmake-build-debug/
+cmake_ninja_workdir = /home/victor/Documentos/Front_Office/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Prueba
+# Object build statements for EXECUTABLE target Valoracion
 
 
 #############################################
-# Order-only phony target for Prueba
+# Order-only phony target for Valoracion
 
-build cmake_object_order_depends_target_Prueba: phony || CMakeFiles/Prueba.dir
+build cmake_object_order_depends_target_Valoracion: phony || CMakeFiles/Valoracion.dir
 
-build CMakeFiles/Prueba.dir/main.cpp.o: CXX_COMPILER__Prueba_unscanned_Debug /home/victor/Documentos/Prueba/main.cpp || cmake_object_order_depends_target_Prueba
-  DEP_FILE = CMakeFiles/Prueba.dir/main.cpp.o.d
+build CMakeFiles/Valoracion.dir/main.cpp.o: CXX_COMPILER__Valoracion_unscanned_Debug /home/victor/Documentos/Front_Office/main.cpp || cmake_object_order_depends_target_Valoracion
+  DEP_FILE = CMakeFiles/Valoracion.dir/main.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I/home/victor/boost_1_84_0
-  OBJECT_DIR = CMakeFiles/Prueba.dir
-  OBJECT_FILE_DIR = CMakeFiles/Prueba.dir
+  OBJECT_DIR = CMakeFiles/Valoracion.dir
+  OBJECT_FILE_DIR = CMakeFiles/Valoracion.dir
 
-build CMakeFiles/Prueba.dir/ZeroCouponCurve.cpp.o: CXX_COMPILER__Prueba_unscanned_Debug /home/victor/Documentos/Prueba/ZeroCouponCurve.cpp || cmake_object_order_depends_target_Prueba
-  DEP_FILE = CMakeFiles/Prueba.dir/ZeroCouponCurve.cpp.o.d
+build CMakeFiles/Valoracion.dir/DayCountCalculator.cpp.o: CXX_COMPILER__Valoracion_unscanned_Debug /home/victor/Documentos/Front_Office/DayCountCalculator.cpp || cmake_object_order_depends_target_Valoracion
+  DEP_FILE = CMakeFiles/Valoracion.dir/DayCountCalculator.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I/home/victor/boost_1_84_0
-  OBJECT_DIR = CMakeFiles/Prueba.dir
-  OBJECT_FILE_DIR = CMakeFiles/Prueba.dir
+  OBJECT_DIR = CMakeFiles/Valoracion.dir
+  OBJECT_FILE_DIR = CMakeFiles/Valoracion.dir
 
-build CMakeFiles/Prueba.dir/DayCountCalculator.cpp.o: CXX_COMPILER__Prueba_unscanned_Debug /home/victor/Documentos/Prueba/DayCountCalculator.cpp || cmake_object_order_depends_target_Prueba
-  DEP_FILE = CMakeFiles/Prueba.dir/DayCountCalculator.cpp.o.d
+build CMakeFiles/Valoracion.dir/ZeroCouponCurve.cpp.o: CXX_COMPILER__Valoracion_unscanned_Debug /home/victor/Documentos/Front_Office/ZeroCouponCurve.cpp || cmake_object_order_depends_target_Valoracion
+  DEP_FILE = CMakeFiles/Valoracion.dir/ZeroCouponCurve.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I/home/victor/boost_1_84_0
-  OBJECT_DIR = CMakeFiles/Prueba.dir
-  OBJECT_FILE_DIR = CMakeFiles/Prueba.dir
+  OBJECT_DIR = CMakeFiles/Valoracion.dir
+  OBJECT_FILE_DIR = CMakeFiles/Valoracion.dir
+
+build CMakeFiles/Valoracion.dir/Leg.cpp.o: CXX_COMPILER__Valoracion_unscanned_Debug /home/victor/Documentos/Front_Office/Leg.cpp || cmake_object_order_depends_target_Valoracion
+  DEP_FILE = CMakeFiles/Valoracion.dir/Leg.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Valoracion.dir
+  OBJECT_FILE_DIR = CMakeFiles/Valoracion.dir
+
+build CMakeFiles/Valoracion.dir/FixedLeg.cpp.o: CXX_COMPILER__Valoracion_unscanned_Debug /home/victor/Documentos/Front_Office/FixedLeg.cpp || cmake_object_order_depends_target_Valoracion
+  DEP_FILE = CMakeFiles/Valoracion.dir/FixedLeg.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Valoracion.dir
+  OBJECT_FILE_DIR = CMakeFiles/Valoracion.dir
+
+build CMakeFiles/Valoracion.dir/FloatingLeg.cpp.o: CXX_COMPILER__Valoracion_unscanned_Debug /home/victor/Documentos/Front_Office/FloatingLeg.cpp || cmake_object_order_depends_target_Valoracion
+  DEP_FILE = CMakeFiles/Valoracion.dir/FloatingLeg.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Valoracion.dir
+  OBJECT_FILE_DIR = CMakeFiles/Valoracion.dir
+
+build CMakeFiles/Valoracion.dir/Index.cpp.o: CXX_COMPILER__Valoracion_unscanned_Debug /home/victor/Documentos/Front_Office/Index.cpp || cmake_object_order_depends_target_Valoracion
+  DEP_FILE = CMakeFiles/Valoracion.dir/Index.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Valoracion.dir
+  OBJECT_FILE_DIR = CMakeFiles/Valoracion.dir
+
+build CMakeFiles/Valoracion.dir/Swap.cpp.o: CXX_COMPILER__Valoracion_unscanned_Debug /home/victor/Documentos/Front_Office/Swap.cpp || cmake_object_order_depends_target_Valoracion
+  DEP_FILE = CMakeFiles/Valoracion.dir/Swap.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Valoracion.dir
+  OBJECT_FILE_DIR = CMakeFiles/Valoracion.dir
+
+build CMakeFiles/Valoracion.dir/Bond.cpp.o: CXX_COMPILER__Valoracion_unscanned_Debug /home/victor/Documentos/Front_Office/Bond.cpp || cmake_object_order_depends_target_Valoracion
+  DEP_FILE = CMakeFiles/Valoracion.dir/Bond.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Valoracion.dir
+  OBJECT_FILE_DIR = CMakeFiles/Valoracion.dir
+
+build CMakeFiles/Valoracion.dir/Instrument.cpp.o: CXX_COMPILER__Valoracion_unscanned_Debug /home/victor/Documentos/Front_Office/Instrument.cpp || cmake_object_order_depends_target_Valoracion
+  DEP_FILE = CMakeFiles/Valoracion.dir/Instrument.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Valoracion.dir
+  OBJECT_FILE_DIR = CMakeFiles/Valoracion.dir
+
+build CMakeFiles/Valoracion.dir/GoalSeeker.cpp.o: CXX_COMPILER__Valoracion_unscanned_Debug /home/victor/Documentos/Front_Office/GoalSeeker.cpp || cmake_object_order_depends_target_Valoracion
+  DEP_FILE = CMakeFiles/Valoracion.dir/GoalSeeker.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Valoracion.dir
+  OBJECT_FILE_DIR = CMakeFiles/Valoracion.dir
+
+build CMakeFiles/Valoracion.dir/TIR_NewtonRaphson.cpp.o: CXX_COMPILER__Valoracion_unscanned_Debug /home/victor/Documentos/Front_Office/TIR_NewtonRaphson.cpp || cmake_object_order_depends_target_Valoracion
+  DEP_FILE = CMakeFiles/Valoracion.dir/TIR_NewtonRaphson.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Valoracion.dir
+  OBJECT_FILE_DIR = CMakeFiles/Valoracion.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Prueba
+# Link build statements for EXECUTABLE target Valoracion
 
 
 #############################################
-# Link the executable Prueba
+# Link the executable Valoracion
 
-build Prueba: CXX_EXECUTABLE_LINKER__Prueba_Debug CMakeFiles/Prueba.dir/main.cpp.o CMakeFiles/Prueba.dir/ZeroCouponCurve.cpp.o CMakeFiles/Prueba.dir/DayCountCalculator.cpp.o
+build Valoracion: CXX_EXECUTABLE_LINKER__Valoracion_Debug CMakeFiles/Valoracion.dir/main.cpp.o CMakeFiles/Valoracion.dir/DayCountCalculator.cpp.o CMakeFiles/Valoracion.dir/ZeroCouponCurve.cpp.o CMakeFiles/Valoracion.dir/Leg.cpp.o CMakeFiles/Valoracion.dir/FixedLeg.cpp.o CMakeFiles/Valoracion.dir/FloatingLeg.cpp.o CMakeFiles/Valoracion.dir/Index.cpp.o CMakeFiles/Valoracion.dir/Swap.cpp.o CMakeFiles/Valoracion.dir/Bond.cpp.o CMakeFiles/Valoracion.dir/Instrument.cpp.o CMakeFiles/Valoracion.dir/GoalSeeker.cpp.o CMakeFiles/Valoracion.dir/TIR_NewtonRaphson.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/Prueba.dir
+  OBJECT_DIR = CMakeFiles/Valoracion.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = Prueba
-  TARGET_PDB = Prueba.dbg
+  TARGET_FILE = Valoracion
+  TARGET_PDB = Valoracion.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Test_1
+
+
+#############################################
+# Order-only phony target for Test_1
+
+build cmake_object_order_depends_target_Test_1: phony || CMakeFiles/Test_1.dir
+
+build CMakeFiles/Test_1.dir/Test_DayCountCalculator.cpp.o: CXX_COMPILER__Test_1_unscanned_Debug /home/victor/Documentos/Front_Office/Test_DayCountCalculator.cpp || cmake_object_order_depends_target_Test_1
+  DEP_FILE = CMakeFiles/Test_1.dir/Test_DayCountCalculator.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_1.dir
+
+build CMakeFiles/Test_1.dir/DayCountCalculator.cpp.o: CXX_COMPILER__Test_1_unscanned_Debug /home/victor/Documentos/Front_Office/DayCountCalculator.cpp || cmake_object_order_depends_target_Test_1
+  DEP_FILE = CMakeFiles/Test_1.dir/DayCountCalculator.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Test_1
+
+
+#############################################
+# Link the executable Test_1
+
+build Test_1: CXX_EXECUTABLE_LINKER__Test_1_Debug CMakeFiles/Test_1.dir/Test_DayCountCalculator.cpp.o CMakeFiles/Test_1.dir/DayCountCalculator.cpp.o | /home/victor/boost_1_84_0/stage/lib/libboost_date_time.so /home/victor/boost_1_84_0/stage/lib/libboost_unit_test_framework.so
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/home/victor/boost_1_84_0/stage/lib  /home/victor/boost_1_84_0/stage/lib/libboost_date_time.so  /home/victor/boost_1_84_0/stage/lib/libboost_unit_test_framework.so
+  OBJECT_DIR = CMakeFiles/Test_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Test_1
+  TARGET_PDB = Test_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Test_2
+
+
+#############################################
+# Order-only phony target for Test_2
+
+build cmake_object_order_depends_target_Test_2: phony || CMakeFiles/Test_2.dir
+
+build CMakeFiles/Test_2.dir/Test_Index.cpp.o: CXX_COMPILER__Test_2_unscanned_Debug /home/victor/Documentos/Front_Office/Test_Index.cpp || cmake_object_order_depends_target_Test_2
+  DEP_FILE = CMakeFiles/Test_2.dir/Test_Index.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_2.dir
+
+build CMakeFiles/Test_2.dir/Index.cpp.o: CXX_COMPILER__Test_2_unscanned_Debug /home/victor/Documentos/Front_Office/Index.cpp || cmake_object_order_depends_target_Test_2
+  DEP_FILE = CMakeFiles/Test_2.dir/Index.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_2.dir
+
+build CMakeFiles/Test_2.dir/ZeroCouponCurve.cpp.o: CXX_COMPILER__Test_2_unscanned_Debug /home/victor/Documentos/Front_Office/ZeroCouponCurve.cpp || cmake_object_order_depends_target_Test_2
+  DEP_FILE = CMakeFiles/Test_2.dir/ZeroCouponCurve.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Test_2
+
+
+#############################################
+# Link the executable Test_2
+
+build Test_2: CXX_EXECUTABLE_LINKER__Test_2_Debug CMakeFiles/Test_2.dir/Test_Index.cpp.o CMakeFiles/Test_2.dir/Index.cpp.o CMakeFiles/Test_2.dir/ZeroCouponCurve.cpp.o | /home/victor/boost_1_84_0/stage/lib/libboost_date_time.so /home/victor/boost_1_84_0/stage/lib/libboost_unit_test_framework.so
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/home/victor/boost_1_84_0/stage/lib  /home/victor/boost_1_84_0/stage/lib/libboost_date_time.so  /home/victor/boost_1_84_0/stage/lib/libboost_unit_test_framework.so
+  OBJECT_DIR = CMakeFiles/Test_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Test_2
+  TARGET_PDB = Test_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Test_3
+
+
+#############################################
+# Order-only phony target for Test_3
+
+build cmake_object_order_depends_target_Test_3: phony || CMakeFiles/Test_3.dir
+
+build CMakeFiles/Test_3.dir/Test_Legs.cpp.o: CXX_COMPILER__Test_3_unscanned_Debug /home/victor/Documentos/Front_Office/Test_Legs.cpp || cmake_object_order_depends_target_Test_3
+  DEP_FILE = CMakeFiles/Test_3.dir/Test_Legs.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_3.dir
+
+build CMakeFiles/Test_3.dir/Leg.cpp.o: CXX_COMPILER__Test_3_unscanned_Debug /home/victor/Documentos/Front_Office/Leg.cpp || cmake_object_order_depends_target_Test_3
+  DEP_FILE = CMakeFiles/Test_3.dir/Leg.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_3.dir
+
+build CMakeFiles/Test_3.dir/FixedLeg.cpp.o: CXX_COMPILER__Test_3_unscanned_Debug /home/victor/Documentos/Front_Office/FixedLeg.cpp || cmake_object_order_depends_target_Test_3
+  DEP_FILE = CMakeFiles/Test_3.dir/FixedLeg.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_3.dir
+
+build CMakeFiles/Test_3.dir/FloatingLeg.cpp.o: CXX_COMPILER__Test_3_unscanned_Debug /home/victor/Documentos/Front_Office/FloatingLeg.cpp || cmake_object_order_depends_target_Test_3
+  DEP_FILE = CMakeFiles/Test_3.dir/FloatingLeg.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_3.dir
+
+build CMakeFiles/Test_3.dir/Index.cpp.o: CXX_COMPILER__Test_3_unscanned_Debug /home/victor/Documentos/Front_Office/Index.cpp || cmake_object_order_depends_target_Test_3
+  DEP_FILE = CMakeFiles/Test_3.dir/Index.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_3.dir
+
+build CMakeFiles/Test_3.dir/ZeroCouponCurve.cpp.o: CXX_COMPILER__Test_3_unscanned_Debug /home/victor/Documentos/Front_Office/ZeroCouponCurve.cpp || cmake_object_order_depends_target_Test_3
+  DEP_FILE = CMakeFiles/Test_3.dir/ZeroCouponCurve.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_3.dir
+
+build CMakeFiles/Test_3.dir/DayCountCalculator.cpp.o: CXX_COMPILER__Test_3_unscanned_Debug /home/victor/Documentos/Front_Office/DayCountCalculator.cpp || cmake_object_order_depends_target_Test_3
+  DEP_FILE = CMakeFiles/Test_3.dir/DayCountCalculator.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Test_3
+
+
+#############################################
+# Link the executable Test_3
+
+build Test_3: CXX_EXECUTABLE_LINKER__Test_3_Debug CMakeFiles/Test_3.dir/Test_Legs.cpp.o CMakeFiles/Test_3.dir/Leg.cpp.o CMakeFiles/Test_3.dir/FixedLeg.cpp.o CMakeFiles/Test_3.dir/FloatingLeg.cpp.o CMakeFiles/Test_3.dir/Index.cpp.o CMakeFiles/Test_3.dir/ZeroCouponCurve.cpp.o CMakeFiles/Test_3.dir/DayCountCalculator.cpp.o | /home/victor/boost_1_84_0/stage/lib/libboost_date_time.so /home/victor/boost_1_84_0/stage/lib/libboost_unit_test_framework.so
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/home/victor/boost_1_84_0/stage/lib  /home/victor/boost_1_84_0/stage/lib/libboost_date_time.so  /home/victor/boost_1_84_0/stage/lib/libboost_unit_test_framework.so
+  OBJECT_DIR = CMakeFiles/Test_3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Test_3
+  TARGET_PDB = Test_3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Test_4
+
+
+#############################################
+# Order-only phony target for Test_4
+
+build cmake_object_order_depends_target_Test_4: phony || CMakeFiles/Test_4.dir
+
+build CMakeFiles/Test_4.dir/Test_Instrument.cpp.o: CXX_COMPILER__Test_4_unscanned_Debug /home/victor/Documentos/Front_Office/Test_Instrument.cpp || cmake_object_order_depends_target_Test_4
+  DEP_FILE = CMakeFiles/Test_4.dir/Test_Instrument.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_4.dir
+
+build CMakeFiles/Test_4.dir/Instrument.cpp.o: CXX_COMPILER__Test_4_unscanned_Debug /home/victor/Documentos/Front_Office/Instrument.cpp || cmake_object_order_depends_target_Test_4
+  DEP_FILE = CMakeFiles/Test_4.dir/Instrument.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_4.dir
+
+build CMakeFiles/Test_4.dir/ZeroCouponCurve.cpp.o: CXX_COMPILER__Test_4_unscanned_Debug /home/victor/Documentos/Front_Office/ZeroCouponCurve.cpp || cmake_object_order_depends_target_Test_4
+  DEP_FILE = CMakeFiles/Test_4.dir/ZeroCouponCurve.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_4.dir
+
+build CMakeFiles/Test_4.dir/Bond.cpp.o: CXX_COMPILER__Test_4_unscanned_Debug /home/victor/Documentos/Front_Office/Bond.cpp || cmake_object_order_depends_target_Test_4
+  DEP_FILE = CMakeFiles/Test_4.dir/Bond.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_4.dir
+
+build CMakeFiles/Test_4.dir/FixedLeg.cpp.o: CXX_COMPILER__Test_4_unscanned_Debug /home/victor/Documentos/Front_Office/FixedLeg.cpp || cmake_object_order_depends_target_Test_4
+  DEP_FILE = CMakeFiles/Test_4.dir/FixedLeg.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_4.dir
+
+build CMakeFiles/Test_4.dir/DayCountCalculator.cpp.o: CXX_COMPILER__Test_4_unscanned_Debug /home/victor/Documentos/Front_Office/DayCountCalculator.cpp || cmake_object_order_depends_target_Test_4
+  DEP_FILE = CMakeFiles/Test_4.dir/DayCountCalculator.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_4.dir
+
+build CMakeFiles/Test_4.dir/FloatingLeg.cpp.o: CXX_COMPILER__Test_4_unscanned_Debug /home/victor/Documentos/Front_Office/FloatingLeg.cpp || cmake_object_order_depends_target_Test_4
+  DEP_FILE = CMakeFiles/Test_4.dir/FloatingLeg.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_4.dir
+
+build CMakeFiles/Test_4.dir/Swap.cpp.o: CXX_COMPILER__Test_4_unscanned_Debug /home/victor/Documentos/Front_Office/Swap.cpp || cmake_object_order_depends_target_Test_4
+  DEP_FILE = CMakeFiles/Test_4.dir/Swap.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_4.dir
+
+build CMakeFiles/Test_4.dir/Leg.cpp.o: CXX_COMPILER__Test_4_unscanned_Debug /home/victor/Documentos/Front_Office/Leg.cpp || cmake_object_order_depends_target_Test_4
+  DEP_FILE = CMakeFiles/Test_4.dir/Leg.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_4.dir
+
+build CMakeFiles/Test_4.dir/Index.cpp.o: CXX_COMPILER__Test_4_unscanned_Debug /home/victor/Documentos/Front_Office/Index.cpp || cmake_object_order_depends_target_Test_4
+  DEP_FILE = CMakeFiles/Test_4.dir/Index.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Test_4
+
+
+#############################################
+# Link the executable Test_4
+
+build Test_4: CXX_EXECUTABLE_LINKER__Test_4_Debug CMakeFiles/Test_4.dir/Test_Instrument.cpp.o CMakeFiles/Test_4.dir/Instrument.cpp.o CMakeFiles/Test_4.dir/ZeroCouponCurve.cpp.o CMakeFiles/Test_4.dir/Bond.cpp.o CMakeFiles/Test_4.dir/FixedLeg.cpp.o CMakeFiles/Test_4.dir/DayCountCalculator.cpp.o CMakeFiles/Test_4.dir/FloatingLeg.cpp.o CMakeFiles/Test_4.dir/Swap.cpp.o CMakeFiles/Test_4.dir/Leg.cpp.o CMakeFiles/Test_4.dir/Index.cpp.o | /home/victor/boost_1_84_0/stage/lib/libboost_date_time.so /home/victor/boost_1_84_0/stage/lib/libboost_unit_test_framework.so
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/home/victor/boost_1_84_0/stage/lib  /home/victor/boost_1_84_0/stage/lib/libboost_date_time.so  /home/victor/boost_1_84_0/stage/lib/libboost_unit_test_framework.so
+  OBJECT_DIR = CMakeFiles/Test_4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Test_4
+  TARGET_PDB = Test_4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Test_5
+
+
+#############################################
+# Order-only phony target for Test_5
+
+build cmake_object_order_depends_target_Test_5: phony || CMakeFiles/Test_5.dir
+
+build CMakeFiles/Test_5.dir/Test_Total.cpp.o: CXX_COMPILER__Test_5_unscanned_Debug /home/victor/Documentos/Front_Office/Test_Total.cpp || cmake_object_order_depends_target_Test_5
+  DEP_FILE = CMakeFiles/Test_5.dir/Test_Total.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_5.dir
+
+build CMakeFiles/Test_5.dir/Instrument.cpp.o: CXX_COMPILER__Test_5_unscanned_Debug /home/victor/Documentos/Front_Office/Instrument.cpp || cmake_object_order_depends_target_Test_5
+  DEP_FILE = CMakeFiles/Test_5.dir/Instrument.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_5.dir
+
+build CMakeFiles/Test_5.dir/ZeroCouponCurve.cpp.o: CXX_COMPILER__Test_5_unscanned_Debug /home/victor/Documentos/Front_Office/ZeroCouponCurve.cpp || cmake_object_order_depends_target_Test_5
+  DEP_FILE = CMakeFiles/Test_5.dir/ZeroCouponCurve.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_5.dir
+
+build CMakeFiles/Test_5.dir/Bond.cpp.o: CXX_COMPILER__Test_5_unscanned_Debug /home/victor/Documentos/Front_Office/Bond.cpp || cmake_object_order_depends_target_Test_5
+  DEP_FILE = CMakeFiles/Test_5.dir/Bond.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_5.dir
+
+build CMakeFiles/Test_5.dir/FixedLeg.cpp.o: CXX_COMPILER__Test_5_unscanned_Debug /home/victor/Documentos/Front_Office/FixedLeg.cpp || cmake_object_order_depends_target_Test_5
+  DEP_FILE = CMakeFiles/Test_5.dir/FixedLeg.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_5.dir
+
+build CMakeFiles/Test_5.dir/DayCountCalculator.cpp.o: CXX_COMPILER__Test_5_unscanned_Debug /home/victor/Documentos/Front_Office/DayCountCalculator.cpp || cmake_object_order_depends_target_Test_5
+  DEP_FILE = CMakeFiles/Test_5.dir/DayCountCalculator.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_5.dir
+
+build CMakeFiles/Test_5.dir/FloatingLeg.cpp.o: CXX_COMPILER__Test_5_unscanned_Debug /home/victor/Documentos/Front_Office/FloatingLeg.cpp || cmake_object_order_depends_target_Test_5
+  DEP_FILE = CMakeFiles/Test_5.dir/FloatingLeg.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_5.dir
+
+build CMakeFiles/Test_5.dir/Swap.cpp.o: CXX_COMPILER__Test_5_unscanned_Debug /home/victor/Documentos/Front_Office/Swap.cpp || cmake_object_order_depends_target_Test_5
+  DEP_FILE = CMakeFiles/Test_5.dir/Swap.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_5.dir
+
+build CMakeFiles/Test_5.dir/Leg.cpp.o: CXX_COMPILER__Test_5_unscanned_Debug /home/victor/Documentos/Front_Office/Leg.cpp || cmake_object_order_depends_target_Test_5
+  DEP_FILE = CMakeFiles/Test_5.dir/Leg.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_5.dir
+
+build CMakeFiles/Test_5.dir/Index.cpp.o: CXX_COMPILER__Test_5_unscanned_Debug /home/victor/Documentos/Front_Office/Index.cpp || cmake_object_order_depends_target_Test_5
+  DEP_FILE = CMakeFiles/Test_5.dir/Index.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/victor/boost_1_84_0
+  OBJECT_DIR = CMakeFiles/Test_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Test_5
+
+
+#############################################
+# Link the executable Test_5
+
+build Test_5: CXX_EXECUTABLE_LINKER__Test_5_Debug CMakeFiles/Test_5.dir/Test_Total.cpp.o CMakeFiles/Test_5.dir/Instrument.cpp.o CMakeFiles/Test_5.dir/ZeroCouponCurve.cpp.o CMakeFiles/Test_5.dir/Bond.cpp.o CMakeFiles/Test_5.dir/FixedLeg.cpp.o CMakeFiles/Test_5.dir/DayCountCalculator.cpp.o CMakeFiles/Test_5.dir/FloatingLeg.cpp.o CMakeFiles/Test_5.dir/Swap.cpp.o CMakeFiles/Test_5.dir/Leg.cpp.o CMakeFiles/Test_5.dir/Index.cpp.o | /home/victor/boost_1_84_0/stage/lib/libboost_date_time.so /home/victor/boost_1_84_0/stage/lib/libboost_unit_test_framework.so
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/home/victor/boost_1_84_0/stage/lib  /home/victor/boost_1_84_0/stage/lib/libboost_date_time.so  /home/victor/boost_1_84_0/stage/lib/libboost_unit_test_framework.so
+  OBJECT_DIR = CMakeFiles/Test_5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Test_5
+  TARGET_PDB = Test_5.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/victor/Documentos/Prueba/cmake-build-debug && /snap/clion/265/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/victor/Documentos/Front_Office/cmake-build-debug && /snap/clion/265/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -102,7 +519,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/victor/Documentos/Prueba/cmake-build-debug && /snap/clion/265/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/victor/Documentos/Prueba -B/home/victor/Documentos/Prueba/cmake-build-debug
+  COMMAND = cd /home/victor/Documentos/Front_Office/cmake-build-debug && /snap/clion/265/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/victor/Documentos/Front_Office -B/home/victor/Documentos/Front_Office/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -118,9 +535,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/victor/Documentos/Prueba/cmake-build-debug
+# Folder: /home/victor/Documentos/Front_Office/cmake-build-debug
 
-build all: phony Prueba
+build all: phony Valoracion Test_1 Test_2 Test_3 Test_4 Test_5
 
 # =============================================================================
 # Built-in targets
@@ -129,14 +546,14 @@ build all: phony Prueba
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/victor/Documentos/Prueba/CMakeLists.txt /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindBoost.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/victor/Documentos/Front_Office/CMakeLists.txt /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindBoost.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/victor/Documentos/Prueba/CMakeLists.txt /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindBoost.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build /home/victor/Documentos/Front_Office/CMakeLists.txt /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindBoost.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake /snap/clion/265/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################
