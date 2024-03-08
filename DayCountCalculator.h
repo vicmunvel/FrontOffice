@@ -1,5 +1,5 @@
-#ifndef MANEJO_FECHAS_HPP
-#define MANEJO_FECHAS_HPP
+#ifndef DAYCOUNTCALCULATOR_H
+#define DAYCOUNTCALCULATOR_H
 
 #include <string>
 #include <boost/date_time/gregorian/gregorian.hpp>

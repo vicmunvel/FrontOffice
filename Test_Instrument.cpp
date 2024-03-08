@@ -35,6 +35,7 @@ BOOST_AUTO_TEST_CASE(test_additionalCalculationForBond) {
     double bondValue = instrumentoBond.price();
 
     double expectedValue = 98.40;
+    BOOST_TEST_MESSAGE("Testeando el calculo del valor del bono (descontado)");
     BOOST_TEST(bondValue == expectedValue, boost::test_tools::tolerance(0.01));
 }
 

@@ -1,5 +1,5 @@
-#ifndef FRONT_OFFICE_ZEROCOUPONCURVE_H
-#define FRONT_OFFICE_ZEROCOUPONCURVE_H
+#ifndef ZEROCOUPONCURVE_H
+#define ZEROCOUPONCURVE_H
 
 #include <boost/date_time/gregorian/gregorian.hpp>
 #include <map>

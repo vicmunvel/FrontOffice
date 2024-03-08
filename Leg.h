@@ -1,5 +1,5 @@
-#ifndef PRUEBA_LEG_H
-#define PRUEBA_LEG_H
+#ifndef LEG_H
+#define LEG_H
 
 #include "LegDescription.h"
 

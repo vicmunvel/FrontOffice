@@ -1,5 +1,5 @@
-#ifndef PRUEBA_FIXEDLEG_H
-#define PRUEBA_FIXEDLEG_H
+#ifndef FIXEDLEG_H
+#define FIXEDLEG_H
 
 #include "Leg.h"
 #include "DayCountCalculator.h"

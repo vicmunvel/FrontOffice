@@ -1,5 +1,5 @@
-#ifndef FRONT_OFFICE_LEGDESCRIPTION_H
-#define FRONT_OFFICE_LEGDESCRIPTION_H
+#ifndef LEGDESCRIPTION_H
+#define LEGDESCRIPTION_H
 
 #include <boost/date_time/gregorian/gregorian.hpp>
 #include <utility>

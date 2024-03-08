@@ -1,5 +1,5 @@
-#ifndef PRUEBA_INDEX_H
-#define PRUEBA_INDEX_H
+#ifndef INDEX_H
+#define INDEX_H
 
 #include <boost/date_time/gregorian/gregorian.hpp>
 #include "ZeroCouponCurve.h"

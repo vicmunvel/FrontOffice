@@ -20,5 +20,5 @@ BOOST_AUTO_TEST_CASE(test_Thirty_360_daycount) {
 
     BOOST_TEST_MESSAGE("Testeando Thirty/360 desde " << from_date << " hasta " << to_date);
     int result = calculator.compute_daycount(from_date, to_date);
-    BOOST_TEST(result == 182); // Verifica que los días sean 183 según Thirty_360
+    BOOST_TEST(result == 182); // Verificamos que los días sean 183 según Thirty_360
 }

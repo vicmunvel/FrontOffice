@@ -1,9 +1,9 @@
-#define BOOST_TEST_MODULE MainIntegrationTest
+#define BOOST_TEST_MODULE Test_Total
 #include <boost/test/included/unit_test.hpp>
 #include "Instrument.h"
 #include "InstrumentDescription.h"
 
-BOOST_AUTO_TEST_CASE(test_main_logic) {
+BOOST_AUTO_TEST_CASE(test_main) {
 
     // Vector de fechas de pago para el BONO
     std::vector<boost::gregorian::date> paymentDatesBond{
@@ -79,7 +79,8 @@ BOOST_AUTO_TEST_CASE(test_main_logic) {
     // Debes definir qué valores esperas para swapPrice y bondPrice.
     double expectedSwapPrice = -495700; // Este valor debe ser determinado por ti
     double expectedBondPrice = 98.40; // Este valor debe ser determinado por ti
-
+    BOOST_TEST_MESSAGE("Testeando el cálculo del precio para el SWAP");
     BOOST_TEST(swapPrice == expectedSwapPrice, boost::test_tools::tolerance(1000.0));
+    BOOST_TEST_MESSAGE("Testeando el cálculo del precio para el BONO");
     BOOST_TEST(bondPrice == expectedBondPrice, boost::test_tools::tolerance(0.01));
 }

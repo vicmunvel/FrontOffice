@@ -1,5 +1,5 @@
-#ifndef PRUEBA_FLOATINGLEG_H
-#define PRUEBA_FLOATINGLEG_H
+#ifndef FLOATINGLEG_H
+#define FLOATINGLEG_H
 
 #include "Leg.h"
 #include "ZeroCouponCurve.h"

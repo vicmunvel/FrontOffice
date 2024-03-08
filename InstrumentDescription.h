@@ -1,9 +1,9 @@
-#ifndef FRONT_OFFICE_INSTRUMENTDESCRIPTION_H
-#define FRONT_OFFICE_INSTRUMENTDESCRIPTION_H
+#ifndef INSTRUMENTDESCRIPTION_H
+#define INSTRUMENTDESCRIPTION_H
 
 #include "LegDescription.h"
 
-// Se utilice para describir los instrumentos financieros en su totalidad
+// Se utiliza para describir los instrumentos financieros en su totalidad
 
 struct InstrumentDescription{
 
